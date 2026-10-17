@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pappu Raz Shotokan Karate Academy | Karate, Taekwondo &amp; Self-Defense</title>
+<meta name="description" content="Train in Shotokan Karate, Taekwondo, sports karate, and self-defense with Pappu Raz Shotokan Karate Academy, established in 1998 in Bangladesh.">
+<meta name="theme-color" content="#08090B">
+<meta property="og:title" content="Pappu Raz Shotokan Karate Academy">
+<meta property="og:description" content="Discipline. Strength. Respect. Training since 1998 in Bangladesh.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2308090B'/%3E%3Cpath d='M6 26V6h6l14 20V6' stroke='%23D71920' stroke-width='3' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bk:#08090B;--ch:#121418;--wh:#F5F5F5;--gr:#9B9DA3;--rd:#D71920;--ln:rgba(245,245,245,.12);--d:'Oswald','Bebas Neue',Impact,'Arial Narrow',sans-serif;--b:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--bk);color:var(--wh);font:400 1rem/1.7 var(--b);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+:focus-visible{outline:2px solid var(--rd);outline-offset:3px}
+.wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+section{padding:clamp(64px,10vw,130px) 0;position:relative}
+h1,h2,h3,.d{font-family:var(--d);text-transform:uppercase;line-height:1.02;letter-spacing:.01em;font-weight:700}
+h2{font-size:clamp(2rem,5.5vw,4rem)}
+h3{font-size:1.5rem}
+.eye{font:600 .75rem var(--b);letter-spacing:.28em;text-transform:uppercase;color:var(--rd);display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.eye::before{content:"";width:34px;height:2px;background:var(--rd)}
+.mut{color:var(--gr)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;font:600 .82rem var(--b);letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--wh);clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,12px 100%,0 calc(100% - 12px));transition:.25s;cursor:pointer;background:none;color:var(--wh)}
+.btn.r{background:var(--rd);border-color:var(--rd)}
+.btn.r:hover{background:#f02a31}
+.btn:not(.r):hover{background:var(--wh);color:var(--bk)}
+/* image blocks */
+.ph{position:relative;background:var(--ch) center/cover no-repeat;overflow:hidden}
+.ph::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent 0 22px,rgba(245,245,245,.025) 22px 23px),radial-gradient(circle at 70% 30%,rgba(215,25,32,.18),transparent 60%)}
+.ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,9,11,.15),rgba(8,9,11,.85))}
+.ph>*{position:relative;z-index:2}
+/* nav */
+header{position:fixed;inset:0 0 auto;z-index:50;transition:.3s}
+header.s{background:rgba(8,9,11,.94);border-bottom:1px solid var(--ln)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:10px;font:700 1rem var(--d);letter-spacing:.08em;text-transform:uppercase;line-height:1.1}
+.logo i{width:36px;height:36px;border:2px solid var(--rd);display:grid;place-items:center;font-style:normal;color:var(--rd);transform:rotate(45deg)}
+.logo i b{transform:rotate(-45deg);font-size:.95rem}
+.logo small{display:block;font:500 .6rem var(--b);letter-spacing:.2em;color:var(--gr)}
+.links{display:none;gap:26px;align-items:center}
+.links a{font:500 .78rem var(--b);letter-spacing:.14em;text-transform:uppercase;padding:6px 0;border-bottom:2px solid transparent}
+.links a:hover,.links a.on{border-color:var(--rd)}
+.links .btn{min-height:42px;padding:0 20px}
+.burger{width:48px;height:48px;background:none;border:1px solid var(--ln);color:var(--wh);cursor:pointer;font-size:1.3rem}
+.menu{position:fixed;inset:72px 0 0;background:var(--bk);display:none;flex-direction:column;padding:28px 20px;gap:4px;overflow:auto}
+.menu.o{display:flex}
+.menu a{font:600 1.8rem var(--d);text-transform:uppercase;padding:12px 0;border-bottom:1px solid var(--ln)}
+.menu .btn{margin-top:20px;font-size:.85rem;border-bottom:0}
+@media(min-width:1020px){.links{display:flex}.burger,.menu{display:none!important}}
+/* hero */
+.hero{min-height:100svh;display:flex;align-items:flex-end;padding:120px 0 70px}
+.hero .ph{position:absolute;inset:0}
+.hero .ph::after{background:linear-gradient(90deg,rgba(8,9,11,.92),rgba(8,9,11,.45)),linear-gradient(0deg,var(--bk),transparent 40%)}
+.hero h1{font-size:clamp(2.8rem,10.5vw,7.5rem);max-width:11ch;margin-bottom:24px}
+.hero h1 em{font-style:normal;color:var(--rd)}
+.hero p.l{max-width:52ch;color:#d4d5d8;font-size:clamp(1rem,2vw,1.15rem);margin-bottom:32px}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:44px}
+.tag{font:600 .72rem var(--b);letter-spacing:.24em;color:var(--gr);border-top:1px solid var(--ln);padding-top:16px;display:inline-block}
+.scroll{position:absolute;right:20px;bottom:40px;writing-mode:vertical-rl;font:600 .65rem var(--b);letter-spacing:.3em;color:var(--gr);display:none;align-items:center;gap:12px}
+.scroll::after{content:"";width:1px;height:60px;background:var(--rd);animation:ln 2s infinite}
+@keyframes ln{0%,100%{transform:scaleY(.3);transform-origin:top}50%{transform:scaleY(1)}}
+@media(min-width:760px){.scroll{display:flex}}
+/* legacy */
+.grid2{display:grid;gap:48px}
+@media(min-width:900px){.grid2{grid-template-columns:1fr 1fr;align-items:center;gap:80px}}
+.leg .ph{aspect-ratio:4/5;border-left:4px solid var(--rd)}
+.pill{display:grid;gap:0;margin-top:34px;border-top:1px solid var(--ln)}
+.pill div{padding:18px 0;border-bottom:1px solid var(--ln);display:flex;gap:20px;align-items:baseline}
+.pill b{font:700 1.3rem var(--d);text-transform:uppercase;color:var(--rd);min-width:120px;letter-spacing:.05em}
+.since{position:absolute;left:-1px;bottom:24px;background:var(--rd);padding:14px 22px;font:700 1.05rem var(--d);letter-spacing:.1em;text-transform:uppercase}
+/* programs */
+.prog{background:var(--ch)}
+.pg{display:grid;gap:14px;margin-top:48px}
+.card{min-height:320px;display:flex;align-items:flex-end;padding:26px;border:1px solid var(--ln);transition:.4s}
+.card .ph{position:absolute;inset:0;transition:transform .8s}
+.card:hover .ph{transform:scale(1.06)}
+.card:hover{border-color:var(--rd)}
+.card div.t{position:relative;z-index:3}
+.card h3{font-size:clamp(1.5rem,3vw,2.2rem);margin-bottom:8px}
+.card p{color:#c9cacd;font-size:.92rem;max-width:44ch}
+.card span{display:inline-block;margin-top:12px;font:600 .7rem var(--b);letter-spacing:.2em;color:var(--rd);text-transform:uppercase}
+@media(min-width:700px){.pg{grid-template-columns:repeat(6,1fr)}.card{grid-column:span 3}.card.w{grid-column:span 3;min-height:420px}.card.n{grid-column:span 2}}
+/* why */
+.why{display:grid;gap:1px;background:var(--ln);margin-top:48px;border:1px solid var(--ln)}
+.why div{background:var(--bk);padding:34px 28px}
+.why b{font:700 3rem var(--d);color:var(--rd);opacity:.9;display:block;line-height:1}
+.why h3{margin:12px 0 8px}
+@media(min-width:700px){.why{grid-template-columns:1fr 1fr}}
+@media(min-width:1100px){.why{grid-template-columns:repeat(4,1fr)}}
+.note{margin-top:28px;color:var(--gr);font-size:.9rem;max-width:80ch;border-left:2px solid var(--rd);padding-left:16px}
+/* instructor */
+.ins{background:var(--ch);overflow:hidden}
+.ins .big{position:absolute;right:-1%;top:6%;font:700 clamp(7rem,24vw,20rem) var(--d);color:rgba(245,245,245,.03);line-height:1;pointer-events:none}
+.ins .ph{aspect-ratio:3/4;max-height:640px;border-bottom:4px solid var(--rd)}
+.ins h2{margin-bottom:10px}
+.cred{display:inline-block;border:1px solid var(--rd);padding:8px 16px;margin:18px 0 22px;font:600 .75rem var(--b);letter-spacing:.16em;text-transform:uppercase}
+/* branches */
+.srch{display:flex;margin:36px 0 10px;max-width:560px;border:1px solid var(--ln);background:var(--ch)}
+.srch input{flex:1;min-height:54px;padding:0 18px;background:none;border:0;color:var(--wh);font:inherit}
+.srch input:focus-visible{outline:2px solid var(--rd);outline-offset:-2px}
+.srch span{display:grid;place-items:center;padding:0 18px;color:var(--rd)}
+#cnt{font-size:.82rem;color:var(--gr);margin-bottom:24px}
+.bg{display:grid;gap:14px}
+.br{background:var(--ch);border:1px solid var(--ln);border-top:3px solid var(--rd);padding:26px;display:flex;flex-direction:column;gap:10px}
+.br h3{font-size:1.35rem}
+.br address{font-style:normal;color:var(--gr);font-size:.92rem;flex:1}
+.br .ph2{font-size:.9rem}
+.br .ac{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.br .btn{min-height:44px;padding:0 18px;font-size:.72rem}
+@media(min-width:700px){.bg{grid-template-columns:1fr 1fr}}
+@media(min-width:1060px){.bg{grid-template-columns:repeat(3,1fr)}}
+.empty{display:none;color:var(--gr);padding:30px 0}
+/* belts */
+.belt{background:var(--ch)}
+.steps{display:grid;gap:0;margin-top:50px;counter-reset:s}
+.steps div{counter-increment:s;padding:24px 0 24px 64px;position:relative;border-left:2px solid var(--ln);margin-left:20px}
+.steps div::before{content:counter(s);position:absolute;left:-22px;top:20px;width:42px;height:42px;background:var(--bk);border:2px solid var(--rd);display:grid;place-items:center;font:700 1.1rem var(--d);transform:rotate(45deg) scale(.85)}
+.steps div:last-child{border-color:var(--rd)}
+.steps h3{font-size:1.2rem;margin-bottom:4px}
+.steps p{color:var(--gr);font-size:.92rem}
+@media(min-width:900px){.steps{grid-template-columns:repeat(5,1fr);border-top:2px solid var(--rd)}.steps div{border:0;margin:0;padding:50px 18px 0 0}.steps div::before{left:0;top:-22px}}
+/* women */
+.wm .ph{aspect-ratio:4/3;border-right:4px solid var(--rd)}
+.wm ul{list-style:none;margin-top:24px;display:grid;gap:12px}
+.wm li{padding-left:24px;position:relative;color:#d4d5d8}
+.wm li::before{content:"";position:absolute;left:0;top:.65em;width:10px;height:2px;background:var(--rd)}
+/* gallery */
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:44px}
+.gal button{aspect-ratio:1;border:0;padding:0;cursor:pointer;position:relative;color:var(--wh);font:600 .7rem var(--b);letter-spacing:.2em;text-transform:uppercase;text-align:left;display:flex;align-items:flex-end;background:none}
+.gal button .ph{position:absolute;inset:0;transition:.5s}
+.gal button:hover .ph{transform:scale(1.05)}
+.gal button span{position:relative;z-index:3;padding:14px}
+@media(min-width:800px){.gal{grid-template-columns:repeat(4,1fr)}.gal .tall{grid-row:span 2;aspect-ratio:auto}.gal .wide{grid-column:span 2;aspect-ratio:2/1}}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(8,9,11,.96);display:none;place-items:center;padding:20px}
+.lb.o{display:grid}
+.lb .ph{width:min(900px,100%);aspect-ratio:3/2}
+.lb p{position:absolute;bottom:40px;left:0;right:0;text-align:center;font:600 .8rem var(--b);letter-spacing:.2em;text-transform:uppercase;z-index:5}
+.lb button{position:absolute;top:18px;right:18px;width:48px;height:48px;background:var(--rd);color:#fff;border:0;font-size:1.4rem;cursor:pointer;z-index:5}
+/* contact */
+.ct{text-align:center;overflow:hidden}
+.ct .ph{position:absolute;inset:0}
+.ct .ph::after{background:rgba(8,9,11,.88)}
+.ct .wrap{position:relative;z-index:3}
+.ct h2{font-size:clamp(2.4rem,8vw,6rem);max-width:14ch;margin:0 auto 22px}
+.ct .eye{justify-content:center}
+.ct p.l{max-width:56ch;margin:0 auto 32px;color:#d4d5d8}
+.nums{font:700 clamp(1.4rem,4vw,2.4rem) var(--d);letter-spacing:.04em;display:flex;flex-wrap:wrap;gap:10px 34px;justify-content:center;margin-bottom:34px}
+.nums a:hover{color:var(--rd)}
+.ct .cta{justify-content:center;margin-bottom:0}
+/* footer */
+footer{background:var(--bk);border-top:1px solid var(--ln);padding:60px 0 28px}
+.fg{display:grid;gap:36px}
+@media(min-width:800px){.fg{grid-template-columns:1.6fr 1fr 1fr 1.2fr}}
+footer h4{font:600 .72rem var(--b);letter-spacing:.22em;text-transform:uppercase;color:var(--rd);margin-bottom:14px}
+footer ul{list-style:none;display:grid;gap:8px;font-size:.9rem;color:var(--gr)}
+footer a:hover{color:var(--wh)}
+footer p{color:var(--gr);font-size:.9rem;margin-top:14px;max-width:36ch}
+.cp{margin-top:44px;padding-top:20px;border-top:1px solid var(--ln);font-size:.78rem;color:var(--gr);display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+/* reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<script>
+/* ===== IMAGE CONFIG: paste verified direct image URLs (academy photos or licensed stock) below.
+   Empty entries show an elegant placeholder. Add attribution near the gallery if a licence requires it. ===== */
+const TAMPERE="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Karate_WC_Tampere_2006-1.jpg/800px-Karate_WC_Tampere_2006-1.jpg";
+const IMAGES={hero:"https://commons.wikimedia.org/wiki/Special:FilePath/Karate_WM_2014_%282%29_019.JPG?width=1920",legacy:"https://commons.wikimedia.org/wiki/Special:FilePath/Wheelchair_Karate_-_Kata2_-_WKF_Worlchampionship_2014.jpg?width=890",karate:"https://commons.wikimedia.org/wiki/Special:FilePath/K1PL_Berlin_2018-09-16_Female_Kata_108.jpg?width=1000",taekwondo:"https://commons.wikimedia.org/wiki/Special:FilePath/Incheon_AsianGames_Taekwondo_027_%2815408670482%29.jpg?width=1400",kumite:"https://commons.wikimedia.org/wiki/Special:FilePath/Karate_WC_Tampere_2006-1.jpg?width=1400",defense:"https://commons.wikimedia.org/wiki/Special:FilePath/Zen_Do_Kai_karate.jpg?width=1000",gymnastics:"https://commons.wikimedia.org/wiki/Special:FilePath/Karate_WM_2014_%282%29_019.JPG?width=1920",nunchaku:"https://commons.wikimedia.org/wiki/Special:FilePath/Wheelchair_Karate_-_Kata2_-_WKF_Worlchampionship_2014.jpg?width=890",instructor:"https://commons.wikimedia.org/wiki/Special:FilePath/Zen_Do_Kai_karate.jpg?width=1000",women:"https://commons.wikimedia.org/wiki/Special:FilePath/K1PL_Berlin_2018-09-16_Female_Kata_108.jpg?width=1000",g1:"https://commons.wikimedia.org/wiki/Special:FilePath/K1PL_Berlin_2018-09-16_Female_Kata_108.jpg?width=1000",g2:"https://commons.wikimedia.org/wiki/Special:FilePath/Incheon_AsianGames_Taekwondo_027_%2815408670482%29.jpg?width=1400",g3:"https://commons.wikimedia.org/wiki/Special:FilePath/Karate_WM_2014_%282%29_019.JPG?width=1920",g4:"https://commons.wikimedia.org/wiki/Special:FilePath/Wheelchair_Karate_-_Kata2_-_WKF_Worlchampionship_2014.jpg?width=890",g5:"https://commons.wikimedia.org/wiki/Special:FilePath/Karate_WC_Tampere_2006-1.jpg?width=1400",g6:"https://commons.wikimedia.org/wiki/Special:FilePath/Zen_Do_Kai_karate.jpg?width=1000",contact:"https://commons.wikimedia.org/wiki/Special:FilePath/Karate_WC_Tampere_2006-1.jpg?width=1400"};
+const FALLBACK={hero:TAMPERE};
+</script>
+
+<header id="hd"><div class="wrap nav">
+<a href="#home" class="logo" aria-label="Pappu Raz Shotokan Karate Academy – home"><i><b>PR</b></i><span>Pappu Raz<small>Shotokan Karate Academy</small></span></a>
+<nav class="links" aria-label="Primary">
+<a href="#home">Home</a><a href="#about">About</a><a href="#programs">Programs</a><a href="#branches">Branches</a><a href="#instructor">Instructor</a><a href="#contact">Contact</a>
+<a href="#contact" class="btn r">Join the Academy</a></nav>
+<button class="burger" id="bg" aria-label="Open menu" aria-expanded="false" aria-controls="mn">☰</button>
+</div>
+<nav class="menu" id="mn" aria-label="Mobile">
+<a href="#home">Home</a><a href="#about">About</a><a href="#programs">Programs</a><a href="#branches">Branches</a><a href="#instructor">Instructor</a><a href="#contact">Contact</a>
+<a href="#contact" class="btn r">Join the Academy</a></nav></header>
+
+<main>
+<section class="hero" id="home" style="padding-top:120px">
+<div class="ph" data-img="hero" role="img" aria-label="Karate practitioner in a white gi holding a dramatic stance"></div>
+<div class="wrap" style="position:relative;z-index:3">
+<div class="eye">Established 1998 · Bangladesh</div>
+<h1>Forged by discipline. <em>Defined by strength.</em></h1>
+<p class="l">Traditional values. Modern training. Real confidence. Discover the martial arts journey with Pappu Raz Shotokan Karate Academy.</p>
+<div class="cta"><a href="#programs" class="btn r">Explore our programs</a><a href="#branches" class="btn">Find your branch</a></div>
+<span class="tag">SHOTOKAN KARATE · TAEKWONDO · SELF-DEFENSE</span>
+</div>
+<div class="scroll" aria-hidden="true">Scroll</div>
+</section>
+
+<section class="leg" id="about"><div class="wrap grid2">
+<div class="rv" style="position:relative"><div class="ph" data-img="legacy" role="img" aria-label="Karate students training together in white uniforms"></div><div class="since">Training since 1998</div></div>
+<div class="rv">
+<div class="eye">Our Legacy</div>
+<h2>More than martial arts. A way of life.</h2>
+<p class="mut" style="margin:22px 0 14px">Established in 1998, Pappu Raz Shotokan Karate Academy has spent over 25 years of martial arts legacy building physical fitness, confidence, mental resilience, and strong character through structured training.</p>
+<p class="mut">The academy was founded by Sensei M. S. Pappu Raz, Founder and Chief Instructor, and welcomes children, teenagers, adults, men and women.</p>
+<div class="pill"><div><b>Discipline</b><span class="mut">Build focus, consistency, and self-control.</span></div><div><b>Strength</b><span class="mut">Develop fitness, coordination, and resilience.</span></div><div><b>Respect</b><span class="mut">Practice humility, responsibility, and mutual respect.</span></div></div>
+</div></div></section>
+
+<section class="prog" id="programs"><div class="wrap">
+<div class="eye">Training Programs</div><h2 class="rv">Six disciplines. One standard.</h2>
+<div class="pg">
+<a href="#branches" class="card w rv"><div class="ph" data-img="karate" role="img" aria-label="Shotokan karate kata"></div><div class="t"><h3>Shotokan Karate</h3><p>Traditional karate techniques, kata, discipline, structured training, and progression through belt levels.</p><span>Find a branch →</span></div></a>
+<a href="#branches" class="card w rv"><div class="ph" data-img="taekwondo" role="img" aria-label="Taekwondo kicking technique"></div><div class="t"><h3>Taekwondo</h3><p>Kicking techniques, flexibility, balance, coordination, discipline, and structured martial arts training.</p><span>Find a branch →</span></div></a>
+<a href="#branches" class="card n rv"><div class="ph" data-img="kumite" role="img" aria-label="Controlled kumite sparring"></div><div class="t"><h3>Sports Karate &amp; Kumite</h3><p>Competition-oriented preparation, sparring skills, timing, movement, control, and tactical awareness.</p></div></a>
+<a href="#women" class="card n rv"><div class="ph" data-img="defense" role="img" aria-label="Self-defense training"></div><div class="t"><h3>Self-Defense</h3><p>Practical self-defense education, awareness, confidence, and modules for women and children.</p></div></a>
+<a href="#branches" class="card n rv"><div class="ph" data-img="gymnastics" role="img" aria-label="Gymnastics flexibility training"></div><div class="t"><h3>Gymnastics</h3><p>Flexibility, balance, coordination, agility, and body control.</p></div></a>
+<a href="#branches" class="card n rv" style="grid-column:1/-1"><div class="ph" data-img="nunchaku" role="img" aria-label="Chain stick and nunchaku form"></div><div class="t"><h3>Chain Stick / Nunchaku</h3><p>Supervised traditional weapon-form training focused on control, coordination, and safety.</p></div></a>
+</div></div></section>
+
+<section id="why"><div class="wrap">
+<div class="eye">Why Train With Us?</div><h2 class="rv">Built on values. Driven by progress.</h2>
+<div class="why rv">
+<div><b>01</b><h3>Structured Training</h3><p class="mut">Follow a progressive training approach with clearly defined learning goals.</p></div>
+<div><b>02</b><h3>Personal Development</h3><p class="mut">Improve confidence, focus, coordination, and discipline.</p></div>
+<div><b>03</b><h3>Competition Preparation</h3><p class="mut">Prepare for local and national competitions, with international participation where applicable.</p></div>
+<div><b>04</b><h3>Inclusive Training</h3><p class="mut">Welcoming opportunities for children, youth, and adults, with dedicated provisions for female students.</p></div></div>
+<p class="note">Students advance through belt progression and periodic rank evaluations, conducted under the academy's stated national-guideline framework. Please ask your branch about evaluation details.</p>
+</div></section>
+
+<section class="ins" id="instructor"><div class="big" aria-hidden="true">SENSEI</div><div class="wrap grid2" style="position:relative">
+<div class="rv"><div class="ph" data-img="instructor" role="img" aria-label="Portrait placeholder for the Chief Instructor"></div></div>
+<div class="rv">
+<div class="eye">Meet the Chief Instructor</div>
+<h2>Sensei M. S. Pappu Raz</h2>
+<p class="d" style="font-size:1.2rem;color:var(--gr);letter-spacing:.14em;margin-top:8px">Founder &amp; Chief Instructor</p>
+<div class="cred">Black Belt, Bangladesh Karate Federation</div>
+<p class="mut" style="margin-bottom:14px">Since founding the academy in 1998, Sensei Pappu Raz has led a commitment to martial arts education that goes beyond technique, shaping students through the values of discipline, strength, and respect.</p>
+<p class="mut">Under his guidance, the academy continues to welcome new generations of students across its branches.</p>
+</div></div></section>
+
+<section id="branches"><div class="wrap">
+<div class="eye">Branch Directory</div><h2 class="rv">Find a training location.</h2>
+<form class="srch" role="search" onsubmit="return false"><input id="q" type="search" placeholder="Search by branch, area, or address" aria-label="Search branches" autocomplete="off"><span aria-hidden="true">⌕</span></form>
+<p id="cnt" role="status" aria-live="polite"></p>
+<div class="bg" id="bl"></div>
+<p class="empty" id="em">No branch matches your search. Try a different area name.</p>
+</div></section>
+
+<section class="belt" id="belts"><div class="wrap">
+<div class="eye">Belt Progression &amp; Achievement</div><h2 class="rv">Progress is earned, step by step.</h2>
+<p class="mut rv" style="margin-top:18px;max-width:60ch">Students advance through structured training and periodic belt evaluations.</p>
+<div class="steps rv">
+<div><h3>Fundamentals</h3><p>Learn stances, basic techniques, and etiquette.</p></div>
+<div><h3>Technique &amp; Discipline</h3><p>Refine form, kata, and consistency.</p></div>
+<div><h3>Control &amp; Confidence</h3><p>Improve physical control, timing, and composure.</p></div>
+<div><h3>Evaluation</h3><p>Prepare for periodic rank evaluations.</p></div>
+<div><h3>Advanced Ranks</h3><p>Progress toward advanced ranks and black belt examinations.</p></div>
+</div></div></section>
+
+<section class="wm" id="women"><div class="wrap grid2">
+<div class="rv"><div class="eye">Women's Self-Defense &amp; Youth Development</div>
+<h2>Confidence is a skill you can train.</h2>
+<ul><li>Women's self-defense modules built on awareness and practical skills.</li><li>Dedicated female instructors.</li><li>Private or supervised training areas for female students.</li><li>Children's programs developing discipline, focus, coordination, and fitness.</li><li>Confidence-building that helps young students stand up to bullying with composure.</li></ul></div>
+<div class="rv"><div class="ph" data-img="women" role="img" aria-label="Self-defense class placeholder"></div></div>
+</div></section>
+
+<section class="prog" id="gallery"><div class="wrap">
+<div class="eye">Gallery</div><h2 class="rv">Training in action.</h2>
+<div class="gal" id="gl"></div>
+<p class="note">Photo credits (Wikimedia Commons): Karate WM 2014 by Claus Michelfelder; Female Kata Berlin 2018 by Martin Rulsch (CC BY-SA 4.0); Incheon Asian Games Taekwondo by Korea.net (CC BY-SA 2.0); Karate WC Tampere 2006 by Indrek Galetin; Wheelchair Karate Kata by Fduboiss; Zen Do Kai karate via Pxhere. These are stock and competition images, not academy photographs. Check each licence on its Commons page.</p>
+</div></section>
+
+<section class="ct" id="contact">
+<div class="ph" data-img="contact" role="presentation"></div>
+<div class="wrap">
+<div class="eye">Join the Academy</div>
+<h2>Your journey starts with one step.</h2>
+<p class="l">Discover the discipline, confidence, and strength that martial arts can build. Find a branch and connect with our academy.</p>
+<div class="nums"><a href="tel:+8801725416768">+880 1725-416768</a><a href="tel:+8801721587223">+880 1721-587223</a></div>
+<div class="cta">
+<a href="#branches" class="btn r">Browse branch directory</a>
+<a href="tel:+8801725416768" class="btn">Call main branch</a>
+<a href="https://www.instagram.com/pappurazkarateacademy70/" class="btn" target="_blank" rel="noopener">Instagram</a>
+<a href="https://www.facebook.com/search/top?q=Pappu%20Raz%20Shotokan%20Karate%20Academy" class="btn" target="_blank" rel="noopener">Facebook</a>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">
+<div class="fg">
+<div><a href="#home" class="logo"><i><b>PR</b></i><span>Pappu Raz<small>Established 1998</small></span></a><p>Developing fitness, confidence, resilience, self-defense skills, and character through structured martial arts training.</p></div>
+<div><h4>Navigate</h4><ul><li><a href="#about">About</a></li><li><a href="#branches">Branch Directory</a></li><li><a href="#instructor">Instructor</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<div><h4>Programs</h4><ul><li><a href="#programs">Shotokan Karate</a></li><li><a href="#programs">Taekwondo</a></li><li><a href="#programs">Sports Karate &amp; Kumite</a></li><li><a href="#women">Self-Defense</a></li></ul></div>
+<div><h4>Connect</h4><ul><li><a href="tel:+8801725416768">+880 1725-416768</a></li><li><a href="tel:+8801721587223">+880 1721-587223</a></li><li><a href="https://www.instagram.com/pappurazkarateacademy70/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.facebook.com/search/top?q=Pappu%20Raz%20Shotokan%20Karate%20Academy" target="_blank" rel="noopener">Facebook</a></li></ul></div>
+</div>
+<div class="cp"><span>© <span id="yr"></span> Pappu Raz Shotokan Karate Academy</span><span>Discipline. Strength. Respect.</span></div>
+</div></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image viewer"><button id="lx" aria-label="Close">×</button><div class="ph" id="li" role="img" aria-label=""></div><p id="lc"></p></div>
+
+<script>
+const B=[
+["Savar Main Branch","Old Abbas Clinic Road (Next to Grameen Shiksha Building), Bank-Colony, Savar, Dhaka","+880 1725-416768 / +880 1721-587223",["+8801725416768","+8801721587223"]],
+["Savar Radio Colony Branch","Radio Colony Primary School Ground, Savar, Dhaka","+880 1608-833419",["+8801608833419"]],
+["Jahangirnagar University Branch","Jahangirnagar University Campus Area, Savar","+880 1934-992835",["+8801934992835"]],
+["Polli Bidyut Branch (Ashulia)","Badsha Tower (Beside Eidgah), Polli Bidyut, Ashulia, Savar, Dhaka","+880 1934-992835",["+8801934992835"]],
+["Dhamrai Branch","Dhamrai Upazila Ground Premises, Dhamrai, Dhaka","+880 1608-833419",["+8801608833419"]],
+["Manikganj Branch","Bijoy Mela Ground, Manikganj Sadar","+880 1643-476169",["+8801643476169"]],
+["Narayanganj Branch","Mozammel Haque School and College, Rupayan Town, Bhuigar, Fatullah, Narayanganj","+880 1319-303542",["+8801319303542"]],
+["Mymensingh Branch","Karshingsa, Dobam Village, Mymensingh","Contact via Main Academy / Regional Desk",[]]];
+const $=s=>document.querySelector(s),bl=$("#bl");
+const GAL=[["g1","Karate","tall"],["g2","Taekwondo",""],["g3","Training","wide"],["g4","Students",""],["g5","Kumite",""],["g6","Events",""]];
+function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+bl.innerHTML=B.map(b=>{const m="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(b[0].replace(/ Branch.*/,"")+" Karate, "+b[1]);
+return `<article class="br rv" data-s="${esc((b[0]+" "+b[1]).toLowerCase())}"><h3>${esc(b[0])}</h3><address>${esc(b[1])}</address><div class="ph2 mut">${esc(b[2])}</div><div class="ac">${b[3].length?`<a class="btn r" href="tel:${b[3][0]}">Call Now</a>`:""}<a class="btn" href="${m}" target="_blank" rel="noopener">Get Directions</a></div></article>`}).join("");
+const cards=[...bl.children];
+$("#q").addEventListener("input",e=>{const v=e.target.value.trim().toLowerCase();let n=0;cards.forEach(c=>{const h=!v||c.dataset.s.includes(v);c.style.display=h?"":"none";if(h)n++});$("#em").style.display=n?"none":"block";$("#cnt").textContent=n+" of "+B.length+" branches shown"});
+$("#cnt").textContent=B.length+" of "+B.length+" branches shown";
+/* gallery */
+$("#gl").innerHTML=GAL.map(g=>`<button class="${g[2]} rv" data-k="${g[0]}" data-c="${g[1]}"><div class="ph" data-img="${g[0]}" role="presentation"></div><span>${g[1]}</span></button>`).join("");
+/* images */
+function applyImg(r){r.querySelectorAll("[data-img]").forEach(e=>{const k=e.dataset.img;const load=(u,fb)=>{const i=new Image();i.onload=()=>{e.style.backgroundImage=`url("${u}")`;e.style.backgroundPosition="center 30%"};i.onerror=()=>{if(fb)load(fb,null)};i.src=u};if(IMAGES[k])load(IMAGES[k],FALLBACK[k])})}
+applyImg(document);
+const lb=$("#lb");let last;
+function openLb(b){last=b;$("#li").dataset.img=b.dataset.k;$("#li").style.backgroundImage="";$("#li").setAttribute("aria-label",b.dataset.c);const u=IMAGES[b.dataset.k];if(u)$("#li").style.backgroundImage=`url("${u}")`;$("#lc").textContent=b.dataset.c;lb.classList.add("o");$("#lx").focus()}
+function closeLb(){lb.classList.remove("o");last&&last.focus()}
+$("#gl").addEventListener("click",e=>{const b=e.target.closest("button");if(b)openLb(b)});
+$("#lx").onclick=closeLb;lb.addEventListener("click",e=>{if(e.target===lb)closeLb()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeLb();closeMn()}});
+/* nav */
+const mn=$("#mn"),bg=$("#bg");
+function closeMn(){mn.classList.remove("o");bg.setAttribute("aria-expanded","false");bg.textContent="☰"}
+bg.onclick=()=>{const o=mn.classList.toggle("o");bg.setAttribute("aria-expanded",o);bg.textContent=o?"✕":"☰"};
+mn.addEventListener("click",e=>{if(e.target.closest("a"))closeMn()});
+const hd=$("#hd");addEventListener("scroll",()=>hd.classList.toggle("s",scrollY>40),{passive:true});
+const secs=[...document.querySelectorAll("main section[id]")],ls=[...document.querySelectorAll(".links a")];
+new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)ls.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"}).observe&&secs.forEach(s=>{});
+const nio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)ls.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});secs.forEach(s=>nio.observe(s));
+/* reveal */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll(".rv").forEach(e=>io.observe(e));
+$("#yr").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
